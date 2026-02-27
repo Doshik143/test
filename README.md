@@ -90,9 +90,9 @@ npm start
 ---
 
 ## ✍️ Автор
-```
-Dzinzilevych Daryna; ІПЗ-23-2; 2025
-```
+
+>Dzinzilevych Daryna; ІПЗ-23-2; 2025
+
 ---
 
 ## 🎯 Функціональні можливості
