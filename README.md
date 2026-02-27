@@ -35,15 +35,18 @@
 ```
 src/
 ├── components/          # Перевикористовувані компоненти
-│   ├── UI/              # Button, Modal, Loader
-│   ├── layout/          # Header, Footer
-│   └── game/            # MazeGrid, GameControls, GameOverDialog
-├── pages/               # StartPage, GamePage, ResultsPage, UserProfile, ResultsTable
+|   ├── forms            # SettingsForm
+|   ├── game/            # GameControls, GameOverDialog, MazeGrid
+│   ├── layout/          # Header
+│   ├── UI/              # Button, Modal
+│   └── 
+├── context/             # SettingsContext, UserStatsContext
 ├── hooks/               # useGame, useGameControls, useNavigation
+├── pages/               # GamePage, ResultsPage, ResultsTable, StartPage, UserProfile
 ├── store/               # Redux store
-│   └── slices/          # settingsSlice, gameStatsSlice, userSlice
-├── styles/              # Глобальні стилі
-└── utils/               # Допоміжні функції
+│   ├── selectors/       # gameStatsSelectors, settingsSelectors
+│   └── slices/          # gameStatsSlice, settingsSlice, userSlice
+└── 
 ```
 
 ---
@@ -52,10 +55,10 @@ src/
 
 ```bash
 # Клонувати репозиторій
-git clone https://github.com/your-username/maze-runner.git
+git clone https://github.com/Doshik143/Standardization.git
 
 # Перейти в папку проекту
-cd maze-runner
+cd Standardization
 
 # Встановити залежності
 npm install
@@ -87,12 +90,9 @@ npm start
 ---
 
 ## ✍️ Автор
-
-**Студентка**: [Твоє Ім'я]
-**Група**: [Твоя група]
-**Предмет**: Компонентно-орієнтоване програмування
-**Рік**: 2025
-
+```
+Dzinzilevych Daryna; ІПЗ-23-2; 2025
+```
 ---
 
 ## 🎯 Функціональні можливості
@@ -125,9 +125,3 @@ npm start
 ## 🐛 Відомі проблеми
 
 *Якщо знайдеш баги — створи Issue у репозиторії!*
-
----
-
-## 🌟 Подяки
-
-Дякую викладачам курсу "Компонентно-орієнтоване програмування" за допомогу та натхнення!
